@@ -110,8 +110,8 @@ def stats_analysis(df, country_name):
     # Axes labelling
     plt.xlabel("Indicator Name")
 
-    # Mention ticks
-    plt.xticks(rotation=45)
+    # Change the xticks with rotation
+    plt.xticks(rotation=90)
 
     # Display grid
     plt.grid()
